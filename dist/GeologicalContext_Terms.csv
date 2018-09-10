@@ -1,51 +1,51 @@
-geologicalcontext:1:Term	GeologicalContext		Geological information, such as stratigraphy, that qualifies a region or place.
-geologicalcontext:2:Term	geologicalContextID		An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set.
-geologicalcontext:3:Term	earliestEonOrLowestEonothem		The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:4:Term	latestEonOrHighestEonothem		The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:5:Term	earliestEraOrLowestErathem		The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:6:Term	latestEraOrHighestErathem		The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:7:Term	earliestPeriodOrLowestSystem		The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:8:Term	latestPeriodOrHighestSystem		The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:9:Term	earliestEpochOrLowestSeries		The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:10:Term	latestEpochOrHighestSeries		The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:11:Term	earliestAgeOrLowestStage		The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:12:Term	latestAgeOrHighestStage		The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:13:Term	lowestBiostratigraphicZone		The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:14:Term	highestBiostratigraphicZone		The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
-geologicalcontext:15:Term	lithostratigraphicTerms		The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.
-geologicalcontext:16:Term	group		The full name of the lithostratigraphic group from which the cataloged item was collected.
-geologicalcontext:17:Term	formation		The full name of the lithostratigraphic formation from which the cataloged item was collected.
-geologicalcontext:18:Term	member		The full name of the lithostratigraphic member from which the cataloged item was collected.
-geologicalcontext:19:Term	bed		The full name of the lithostratigraphic bed from which the cataloged item was collected.
-geologicalcontext:1:Definition	Geological information, such as stratigraphy, that qualifies a region or place.		
-geologicalcontext:2:Definition	An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set.		
-geologicalcontext:3:Definition	The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:4:Definition	The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:5:Definition	The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:6:Definition	The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:7:Definition	The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:8:Definition	The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:9:Definition	The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:10:Definition	The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:11:Definition	The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:12:Definition	The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:13:Definition	The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:14:Definition	The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.		
-geologicalcontext:15:Definition	The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.		
-geologicalcontext:16:Definition	The full name of the lithostratigraphic group from which the cataloged item was collected.		
-geologicalcontext:17:Definition	The full name of the lithostratigraphic formation from which the cataloged item was collected.		
-geologicalcontext:18:Definition	The full name of the lithostratigraphic member from which the cataloged item was collected.		
-geologicalcontext:19:Definition	The full name of the lithostratigraphic bed from which the cataloged item was collected.		
-geologicalcontext:1:Examples	A lithostratigraphic layer. 		
-geologicalcontext:3:Examples	"Phanerozoic",  "Proterozoic".		
-geologicalcontext:4:Examples	"Phanerozoic",  "Proterozoic".		
-geologicalcontext:5:Examples	"Cenozoic",  "Mesozoic".		
-geologicalcontext:6:Examples	"Cenozoic",  "Mesozoic".		
-geologicalcontext:7:Examples	"Neogene",  "Tertiary",  "Quaternary".		
-geologicalcontext:8:Examples	"Neogene",  "Tertiary",  "Quaternary".		
-geologicalcontext:9:Examples	"Holocene",  "Pleistocene",  "Ibexian Series".		
-geologicalcontext:10:Examples	"Holocene",  "Pleistocene",  "Ibexian Series".		
-geologicalcontext:11:Examples	"Atlantic",  "Boreal",  "Skullrockian".		
-geologicalcontext:12:Examples	"Atlantic",  "Boreal",  "Skullrockian".		
-geologicalcontext:17:Examples	"Notch Peak Fromation",  "House Limestone",  "Fillmore Formation".		
-geologicalcontext:18:Examples	"Lava Dam Member",  "Hellnmaria Member".		
+geologicalcontext:1:Term (http://terms.tdwg.org/wiki/dwc:GeologicalContext)	GeologicalContext		Geological information, such as stratigraphy, that qualifies a region or place.
+geologicalcontext:2:Term (http://terms.tdwg.org/wiki/dwc:geologicalContextID)	geologicalContextID		An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set.
+geologicalcontext:3:Term (http://terms.tdwg.org/wiki/dwc:earliestEonOrLowestEonothem)	earliestEonOrLowestEonothem		The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:4:Term (http://terms.tdwg.org/wiki/dwc:latestEonOrHighestEonothem)	latestEonOrHighestEonothem		The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:5:Term (http://terms.tdwg.org/wiki/dwc:earliestEraOrLowestErathem)	earliestEraOrLowestErathem		The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:6:Term (http://terms.tdwg.org/wiki/dwc:latestEraOrHighestErathem)	latestEraOrHighestErathem		The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:7:Term (http://terms.tdwg.org/wiki/dwc:earliestPeriodOrLowestSystem)	earliestPeriodOrLowestSystem		The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:8:Term (http://terms.tdwg.org/wiki/dwc:latestPeriodOrHighestSystem)	latestPeriodOrHighestSystem		The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:9:Term (http://terms.tdwg.org/wiki/dwc:earliestEpochOrLowestSeries)	earliestEpochOrLowestSeries		The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:10:Term (http://terms.tdwg.org/wiki/dwc:latestEpochOrHighestSeries)	latestEpochOrHighestSeries		The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:11:Term (http://terms.tdwg.org/wiki/dwc:earliestAgeOrLowestStage)	earliestAgeOrLowestStage		The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:12:Term (http://terms.tdwg.org/wiki/dwc:latestAgeOrHighestStage)	latestAgeOrHighestStage		The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:13:Term (http://terms.tdwg.org/wiki/dwc:lowestBiostratigraphicZone)	lowestBiostratigraphicZone		The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:14:Term (http://terms.tdwg.org/wiki/dwc:highestBiostratigraphicZone)	highestBiostratigraphicZone		The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
+geologicalcontext:15:Term (http://terms.tdwg.org/wiki/dwc:lithostratigraphicTerms)	lithostratigraphicTerms		The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.
+geologicalcontext:16:Term (http://terms.tdwg.org/wiki/dwc:group)	group		The full name of the lithostratigraphic group from which the cataloged item was collected.
+geologicalcontext:17:Term (http://terms.tdwg.org/wiki/dwc:formation)	formation		The full name of the lithostratigraphic formation from which the cataloged item was collected.
+geologicalcontext:18:Term (http://terms.tdwg.org/wiki/dwc:member)	member		The full name of the lithostratigraphic member from which the cataloged item was collected.
+geologicalcontext:19:Term (http://terms.tdwg.org/wiki/dwc:bed)	bed		The full name of the lithostratigraphic bed from which the cataloged item was collected.
+geologicalcontext:1:Definition of GeologicalContext (http://terms.tdwg.org/wiki/dwc:GeologicalContext)	Geological information, such as stratigraphy, that qualifies a region or place.		
+geologicalcontext:2:Definition of geologicalContextID (http://terms.tdwg.org/wiki/dwc:geologicalContextID)	An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set.		
+geologicalcontext:3:Definition of earliestEonOrLowestEonothem (http://terms.tdwg.org/wiki/dwc:earliestEonOrLowestEonothem)	The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:4:Definition of latestEonOrHighestEonothem (http://terms.tdwg.org/wiki/dwc:latestEonOrHighestEonothem)	The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:5:Definition of earliestEraOrLowestErathem (http://terms.tdwg.org/wiki/dwc:earliestEraOrLowestErathem)	The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:6:Definition of latestEraOrHighestErathem (http://terms.tdwg.org/wiki/dwc:latestEraOrHighestErathem)	The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:7:Definition of earliestPeriodOrLowestSystem (http://terms.tdwg.org/wiki/dwc:earliestPeriodOrLowestSystem)	The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:8:Definition of latestPeriodOrHighestSystem (http://terms.tdwg.org/wiki/dwc:latestPeriodOrHighestSystem)	The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:9:Definition of earliestEpochOrLowestSeries (http://terms.tdwg.org/wiki/dwc:earliestEpochOrLowestSeries)	The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:10:Definition of latestEpochOrHighestSeries (http://terms.tdwg.org/wiki/dwc:latestEpochOrHighestSeries)	The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:11:Definition of earliestAgeOrLowestStage (http://terms.tdwg.org/wiki/dwc:earliestAgeOrLowestStage)	The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:12:Definition of latestAgeOrHighestStage (http://terms.tdwg.org/wiki/dwc:latestAgeOrHighestStage)	The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:13:Definition of lowestBiostratigraphicZone (http://terms.tdwg.org/wiki/dwc:lowestBiostratigraphicZone)	The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:14:Definition of highestBiostratigraphicZone (http://terms.tdwg.org/wiki/dwc:highestBiostratigraphicZone)	The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.		
+geologicalcontext:15:Definition of lithostratigraphicTerms (http://terms.tdwg.org/wiki/dwc:lithostratigraphicTerms)	The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.		
+geologicalcontext:16:Definition of group (http://terms.tdwg.org/wiki/dwc:group)	The full name of the lithostratigraphic group from which the cataloged item was collected.		
+geologicalcontext:17:Definition of formation (http://terms.tdwg.org/wiki/dwc:formation)	The full name of the lithostratigraphic formation from which the cataloged item was collected.		
+geologicalcontext:18:Definition of member (http://terms.tdwg.org/wiki/dwc:member)	The full name of the lithostratigraphic member from which the cataloged item was collected.		
+geologicalcontext:19:Definition of bed (http://terms.tdwg.org/wiki/dwc:bed)	The full name of the lithostratigraphic bed from which the cataloged item was collected.		
+geologicalcontext:1:Examples of GeologicalContext (http://terms.tdwg.org/wiki/dwc:GeologicalContext)	A lithostratigraphic layer. 		
+geologicalcontext:3:Examples of earliestEonOrLowestEonothem (http://terms.tdwg.org/wiki/dwc:earliestEonOrLowestEonothem)	"Phanerozoic",  "Proterozoic".		
+geologicalcontext:4:Examples of latestEonOrHighestEonothem (http://terms.tdwg.org/wiki/dwc:latestEonOrHighestEonothem)	"Phanerozoic",  "Proterozoic".		
+geologicalcontext:5:Examples of earliestEraOrLowestErathem (http://terms.tdwg.org/wiki/dwc:earliestEraOrLowestErathem)	"Cenozoic",  "Mesozoic".		
+geologicalcontext:6:Examples of latestEraOrHighestErathem (http://terms.tdwg.org/wiki/dwc:latestEraOrHighestErathem)	"Cenozoic",  "Mesozoic".		
+geologicalcontext:7:Examples of earliestPeriodOrLowestSystem (http://terms.tdwg.org/wiki/dwc:earliestPeriodOrLowestSystem)	"Neogene",  "Tertiary",  "Quaternary".		
+geologicalcontext:8:Examples of latestPeriodOrHighestSystem (http://terms.tdwg.org/wiki/dwc:latestPeriodOrHighestSystem)	"Neogene",  "Tertiary",  "Quaternary".		
+geologicalcontext:9:Examples of earliestEpochOrLowestSeries (http://terms.tdwg.org/wiki/dwc:earliestEpochOrLowestSeries)	"Holocene",  "Pleistocene",  "Ibexian Series".		
+geologicalcontext:10:Examples of latestEpochOrHighestSeries (http://terms.tdwg.org/wiki/dwc:latestEpochOrHighestSeries)	"Holocene",  "Pleistocene",  "Ibexian Series".		
+geologicalcontext:11:Examples of earliestAgeOrLowestStage (http://terms.tdwg.org/wiki/dwc:earliestAgeOrLowestStage)	"Atlantic",  "Boreal",  "Skullrockian".		
+geologicalcontext:12:Examples of latestAgeOrHighestStage (http://terms.tdwg.org/wiki/dwc:latestAgeOrHighestStage)	"Atlantic",  "Boreal",  "Skullrockian".		
+geologicalcontext:17:Examples of formation (http://terms.tdwg.org/wiki/dwc:formation)	"Notch Peak Fromation",  "House Limestone",  "Fillmore Formation".		
+geologicalcontext:18:Examples of member (http://terms.tdwg.org/wiki/dwc:member)	"Lava Dam Member",  "Hellnmaria Member".		

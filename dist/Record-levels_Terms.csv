@@ -1,61 +1,61 @@
-record-level:1:Term	type		The nature or genre of the resource. For Darwin Core, recommended best practice is to use the name of the class that defines the root of the record.
-record-level:2:Term	modified		The most recent date-time on which the resource was changed. For Darwin Core, recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
-record-level:3:Term	language		A language of the resource. Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].
-record-level:4:Term	license		A legal document giving official permission to do something with the resource.
-record-level:5:Term	rightsHolder		A person or organization owning or managing rights over the resource.
-record-level:6:Term	accessRights		Information about who can access the resource or an indication of its security status. Access Rights may include information regarding access or restrictions based on privacy, security, or other policies.
-record-level:7:Term	bibliographicCitation		A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.
-record-level:8:Term	references		A related resource that is referenced, cited, or otherwise pointed to by the described resource.
-record-level:9:Term	institutionID		An identifier for the institution having custody of the object(s) or information referred to in the record.
-record-level:10:Term	collectionID		An identifier for the collection or dataset from which the record was derived.
-record-level:11:Term	datasetID		An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.
-record-level:12:Term	institutionCode		The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.
-record-level:13:Term	collectionCode		The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.
-record-level:14:Term	datasetName		The name identifying the data set from which the record was derived.
-record-level:15:Term	ownerInstitutionCode		The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.
-record-level:16:Term	basisOfRecord		The specific nature of the data record.
-record-level:17:Term	informationWithheld		Additional information that exists, but that has not been shared in the given record.
-record-level:18:Term	dataGeneralizations		Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.
-record-level:19:Term	dynamicProperties		A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content.
-record-level:1:Definition	The nature or genre of the resource. For Darwin Core, recommended best practice is to use the name of the class that defines the root of the record.		
-record-level:2:Definition	The most recent date-time on which the resource was changed. For Darwin Core, recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).		
-record-level:3:Definition	A language of the resource. Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].		
-record-level:4:Definition	A legal document giving official permission to do something with the resource.		
-record-level:5:Definition	A person or organization owning or managing rights over the resource.		
-record-level:6:Definition	Information about who can access the resource or an indication of its security status. Access Rights may include information regarding access or restrictions based on privacy, security, or other policies.		
-record-level:7:Definition	A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.		
-record-level:8:Definition	A related resource that is referenced, cited, or otherwise pointed to by the described resource.		
-record-level:9:Definition	An identifier for the institution having custody of the object(s) or information referred to in the record.		
-record-level:10:Definition	An identifier for the collection or dataset from which the record was derived.		
-record-level:11:Definition	An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.		
-record-level:12:Definition	The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.		
-record-level:13:Definition	The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.		
-record-level:14:Definition	The name identifying the data set from which the record was derived.		
-record-level:15:Definition	The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.		
-record-level:16:Definition	The specific nature of the data record.		
-record-level:17:Definition	Additional information that exists, but that has not been shared in the given record.		
-record-level:18:Definition	Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.		
-record-level:19:Definition	A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content.		
-record-level:9:Comments	For physical specimens, the recommended best practice is to use an identifier from a collections registry such as the Global Registry of Biodiversity Repositories (http://grbio.org/).		
-record-level:10:Comments	For physical specimens, the recommended best practice is to use an identifier from a collections registry such as the Global Registry of Biodiversity Repositories (http://grbio.org/).		
-record-level:16:Comments	Recommended best practice is to use a controlled vocabulary such as the list of Darwin Core classes.		
-record-level:18:Comments	Example: "Coordinates generalized from original GPS coordinates to the nearest half degree grid cell".		
-record-level:19:Comments	The recommended best practice is to use a key:value encoding schema such as JSON.		
-record-level:1:Examples	"StillImage", "MovingImage", "Sound", "PhysicalObject", "Event", "Text". 		
-record-level:2:Examples	"1963-03-08T14:07-0600" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, "2009-02-20T08:40Z" is 20 Feb 2009 8:40am UTC, "1809-02-12" is 12 Feb 1809, "1906-06" is Jun 1906, "1971" is just that year, "2007-03-01T13:00:00Z/2008-05-11T15:30:00Z" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, "2007-11-13/15" is the interval between 13 Nov 2007 and 15 Nov 2007. 		
-record-level:3:Examples	"en" for English, "es" for Spanish. 		
-record-level:4:Examples	"http://creativecommons.org/publicdomain/zero/1.0/legalcode",  "http://creativecommons.org/licenses/by/4.0/legalcode". 		
-record-level:5:Examples	"The Regents of the University of California."		
-record-level:6:Examples	"not-for-profit use only"		
-record-level:7:Examples	"Ctenomys sociabilis (MVZ 165861)" for a specimen, "Oliver P. Pearson. 1985. Los tuco-tucos (genera Ctenomys) de los Parques Nacionales Lanin y Nahuel Huapi, Argentina Historia Natural, 5(37):337-343." for a Taxon. 		
-record-level:8:Examples	"http://mvzarctos.berkeley.edu/guid/MVZ:Mamm:165861";  "http://www.catalogueoflife.org/annual-checklist/show_species_details.php?record_id=6197868". 		
-record-level:9:Examples	"http://biocol.org/urn:lsid:biocol.org:col:34777",  "http://grbio.org/cool/km06-gtbn".		
-record-level:10:Examples	"http://biocol.org/urn:lsid:biocol.org:col:1001",  "http://grbio.org/cool/p5fp-c036". 		
-record-level:12:Examples	"MVZ",  "FMNH",  "AKN-CLO",  "University of California Museum of Paleontology (UCMP)".		
-record-level:13:Examples	"Mammals",  "Hildebrandt",  "eBird".		
-record-level:14:Examples	"Grinnell Resurvey Mammals",  "Lacey Ctenomys Recaptures".		
-record-level:15:Examples	"NPS",  "APN",  "InBio".		
-record-level:16:Examples	"PreservedSpecimen",  "FossilSpecimen",  "LivingSpecimen",  "HumanObservation",  "MachineObservation".		
-record-level:17:Examples	"location information not given for endangered species",  "collector identities withheld",  "ask about tissue samples".		
-record-level:18:Examples	"Coordinates generalized from original GPS coordinates to the nearest half degree grid cell".		
-record-level:19:Examples	"{"heightInMeters":1.5}",  "{"tragusLengthInMeters":0.014, "weightInGrams":120}",  "{"natureOfID":"expert identification", "identificationEvidence":"cytochrome B sequence"}",  "{"relativeHumidity":28, "airTemperatureInCelcius":22, "sampleSizeInKilograms":10}",  "{"aspectHeading":277, "slopeInDegrees":6}",  "{"iucnStatus":"vulnerable", "taxonDistribution":"Neuquén, Argentina"}".		
+record-level:1:Term (http://terms.tdwg.org/wiki/dwc:type)	type		The nature or genre of the resource. For Darwin Core, recommended best practice is to use the name of the class that defines the root of the record.
+record-level:2:Term (http://terms.tdwg.org/wiki/dwc:modified)	modified		The most recent date-time on which the resource was changed. For Darwin Core, recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+record-level:3:Term (http://terms.tdwg.org/wiki/dwc:language)	language		A language of the resource. Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].
+record-level:4:Term (http://terms.tdwg.org/wiki/dwc:license)	license		A legal document giving official permission to do something with the resource.
+record-level:5:Term (http://terms.tdwg.org/wiki/dwc:rightsHolder)	rightsHolder		A person or organization owning or managing rights over the resource.
+record-level:6:Term (http://terms.tdwg.org/wiki/dwc:accessRights)	accessRights		Information about who can access the resource or an indication of its security status. Access Rights may include information regarding access or restrictions based on privacy, security, or other policies.
+record-level:7:Term (http://terms.tdwg.org/wiki/dwc:bibliographicCitation)	bibliographicCitation		A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.
+record-level:8:Term (http://terms.tdwg.org/wiki/dwc:references)	references		A related resource that is referenced, cited, or otherwise pointed to by the described resource.
+record-level:9:Term (http://terms.tdwg.org/wiki/dwc:institutionID)	institutionID		An identifier for the institution having custody of the object(s) or information referred to in the record.
+record-level:10:Term (http://terms.tdwg.org/wiki/dwc:collectionID)	collectionID		An identifier for the collection or dataset from which the record was derived.
+record-level:11:Term (http://terms.tdwg.org/wiki/dwc:datasetID)	datasetID		An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.
+record-level:12:Term (http://terms.tdwg.org/wiki/dwc:institutionCode)	institutionCode		The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.
+record-level:13:Term (http://terms.tdwg.org/wiki/dwc:collectionCode)	collectionCode		The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.
+record-level:14:Term (http://terms.tdwg.org/wiki/dwc:datasetName)	datasetName		The name identifying the data set from which the record was derived.
+record-level:15:Term (http://terms.tdwg.org/wiki/dwc:ownerInstitutionCode)	ownerInstitutionCode		The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.
+record-level:16:Term (http://terms.tdwg.org/wiki/dwc:basisOfRecord)	basisOfRecord		The specific nature of the data record.
+record-level:17:Term (http://terms.tdwg.org/wiki/dwc:informationWithheld)	informationWithheld		Additional information that exists, but that has not been shared in the given record.
+record-level:18:Term (http://terms.tdwg.org/wiki/dwc:dataGeneralizations)	dataGeneralizations		Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.
+record-level:19:Term (http://terms.tdwg.org/wiki/dwc:dynamicProperties)	dynamicProperties		A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content.
+record-level:1:Definition of type (http://terms.tdwg.org/wiki/dwc:type)	The nature or genre of the resource. For Darwin Core, recommended best practice is to use the name of the class that defines the root of the record.		
+record-level:2:Definition of modified (http://terms.tdwg.org/wiki/dwc:modified)	The most recent date-time on which the resource was changed. For Darwin Core, recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).		
+record-level:3:Definition of language (http://terms.tdwg.org/wiki/dwc:language)	A language of the resource. Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].		
+record-level:4:Definition of license (http://terms.tdwg.org/wiki/dwc:license)	A legal document giving official permission to do something with the resource.		
+record-level:5:Definition of rightsHolder (http://terms.tdwg.org/wiki/dwc:rightsHolder)	A person or organization owning or managing rights over the resource.		
+record-level:6:Definition of accessRights (http://terms.tdwg.org/wiki/dwc:accessRights)	Information about who can access the resource or an indication of its security status. Access Rights may include information regarding access or restrictions based on privacy, security, or other policies.		
+record-level:7:Definition of bibliographicCitation (http://terms.tdwg.org/wiki/dwc:bibliographicCitation)	A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.		
+record-level:8:Definition of references (http://terms.tdwg.org/wiki/dwc:references)	A related resource that is referenced, cited, or otherwise pointed to by the described resource.		
+record-level:9:Definition of institutionID (http://terms.tdwg.org/wiki/dwc:institutionID)	An identifier for the institution having custody of the object(s) or information referred to in the record.		
+record-level:10:Definition of collectionID (http://terms.tdwg.org/wiki/dwc:collectionID)	An identifier for the collection or dataset from which the record was derived.		
+record-level:11:Definition of datasetID (http://terms.tdwg.org/wiki/dwc:datasetID)	An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.		
+record-level:12:Definition of institutionCode (http://terms.tdwg.org/wiki/dwc:institutionCode)	The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.		
+record-level:13:Definition of collectionCode (http://terms.tdwg.org/wiki/dwc:collectionCode)	The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.		
+record-level:14:Definition of datasetName (http://terms.tdwg.org/wiki/dwc:datasetName)	The name identifying the data set from which the record was derived.		
+record-level:15:Definition of ownerInstitutionCode (http://terms.tdwg.org/wiki/dwc:ownerInstitutionCode)	The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.		
+record-level:16:Definition of basisOfRecord (http://terms.tdwg.org/wiki/dwc:basisOfRecord)	The specific nature of the data record.		
+record-level:17:Definition of informationWithheld (http://terms.tdwg.org/wiki/dwc:informationWithheld)	Additional information that exists, but that has not been shared in the given record.		
+record-level:18:Definition of dataGeneralizations (http://terms.tdwg.org/wiki/dwc:dataGeneralizations)	Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.		
+record-level:19:Definition of dynamicProperties (http://terms.tdwg.org/wiki/dwc:dynamicProperties)	A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content.		
+record-level:9:Comments of institutionID (http://terms.tdwg.org/wiki/dwc:institutionID)	For physical specimens, the recommended best practice is to use an identifier from a collections registry such as the Global Registry of Biodiversity Repositories (http://grbio.org/).		
+record-level:10:Comments of collectionID (http://terms.tdwg.org/wiki/dwc:collectionID)	For physical specimens, the recommended best practice is to use an identifier from a collections registry such as the Global Registry of Biodiversity Repositories (http://grbio.org/).		
+record-level:16:Comments of basisOfRecord (http://terms.tdwg.org/wiki/dwc:basisOfRecord)	Recommended best practice is to use a controlled vocabulary such as the list of Darwin Core classes.		
+record-level:18:Comments of dataGeneralizations (http://terms.tdwg.org/wiki/dwc:dataGeneralizations)	Example: "Coordinates generalized from original GPS coordinates to the nearest half degree grid cell".		
+record-level:19:Comments of dynamicProperties (http://terms.tdwg.org/wiki/dwc:dynamicProperties)	The recommended best practice is to use a key:value encoding schema such as JSON.		
+record-level:1:Examples of type (http://terms.tdwg.org/wiki/dwc:type)	"StillImage", "MovingImage", "Sound", "PhysicalObject", "Event", "Text". 		
+record-level:2:Examples of modified (http://terms.tdwg.org/wiki/dwc:modified)	"1963-03-08T14:07-0600" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, "2009-02-20T08:40Z" is 20 Feb 2009 8:40am UTC, "1809-02-12" is 12 Feb 1809, "1906-06" is Jun 1906, "1971" is just that year, "2007-03-01T13:00:00Z/2008-05-11T15:30:00Z" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, "2007-11-13/15" is the interval between 13 Nov 2007 and 15 Nov 2007. 		
+record-level:3:Examples of language (http://terms.tdwg.org/wiki/dwc:language)	"en" for English, "es" for Spanish. 		
+record-level:4:Examples of license (http://terms.tdwg.org/wiki/dwc:license)	"http://creativecommons.org/publicdomain/zero/1.0/legalcode",  "http://creativecommons.org/licenses/by/4.0/legalcode". 		
+record-level:5:Examples of rightsHolder (http://terms.tdwg.org/wiki/dwc:rightsHolder)	"The Regents of the University of California."		
+record-level:6:Examples of accessRights (http://terms.tdwg.org/wiki/dwc:accessRights)	"not-for-profit use only"		
+record-level:7:Examples of bibliographicCitation (http://terms.tdwg.org/wiki/dwc:bibliographicCitation)	"Ctenomys sociabilis (MVZ 165861)" for a specimen, "Oliver P. Pearson. 1985. Los tuco-tucos (genera Ctenomys) de los Parques Nacionales Lanin y Nahuel Huapi, Argentina Historia Natural, 5(37):337-343." for a Taxon. 		
+record-level:8:Examples of references (http://terms.tdwg.org/wiki/dwc:references)	"http://mvzarctos.berkeley.edu/guid/MVZ:Mamm:165861";  "http://www.catalogueoflife.org/annual-checklist/show_species_details.php?record_id=6197868". 		
+record-level:9:Examples of institutionID (http://terms.tdwg.org/wiki/dwc:institutionID)	"http://biocol.org/urn:lsid:biocol.org:col:34777",  "http://grbio.org/cool/km06-gtbn".		
+record-level:10:Examples of collectionID (http://terms.tdwg.org/wiki/dwc:collectionID)	"http://biocol.org/urn:lsid:biocol.org:col:1001",  "http://grbio.org/cool/p5fp-c036". 		
+record-level:12:Examples of institutionCode (http://terms.tdwg.org/wiki/dwc:institutionCode)	"MVZ",  "FMNH",  "AKN-CLO",  "University of California Museum of Paleontology (UCMP)".		
+record-level:13:Examples of collectionCode (http://terms.tdwg.org/wiki/dwc:collectionCode)	"Mammals",  "Hildebrandt",  "eBird".		
+record-level:14:Examples of datasetName (http://terms.tdwg.org/wiki/dwc:datasetName)	"Grinnell Resurvey Mammals",  "Lacey Ctenomys Recaptures".		
+record-level:15:Examples of ownerInstitutionCode (http://terms.tdwg.org/wiki/dwc:ownerInstitutionCode)	"NPS",  "APN",  "InBio".		
+record-level:16:Examples of basisOfRecord (http://terms.tdwg.org/wiki/dwc:basisOfRecord)	"PreservedSpecimen",  "FossilSpecimen",  "LivingSpecimen",  "HumanObservation",  "MachineObservation".		
+record-level:17:Examples of informationWithheld (http://terms.tdwg.org/wiki/dwc:informationWithheld)	"location information not given for endangered species",  "collector identities withheld",  "ask about tissue samples".		
+record-level:18:Examples of dataGeneralizations (http://terms.tdwg.org/wiki/dwc:dataGeneralizations)	"Coordinates generalized from original GPS coordinates to the nearest half degree grid cell".		
+record-level:19:Examples of dynamicProperties (http://terms.tdwg.org/wiki/dwc:dynamicProperties)	"{"heightInMeters":1.5}",  "{"tragusLengthInMeters":0.014, "weightInGrams":120}",  "{"natureOfID":"expert identification", "identificationEvidence":"cytochrome B sequence"}",  "{"relativeHumidity":28, "airTemperatureInCelcius":22, "sampleSizeInKilograms":10}",  "{"aspectHeading":277, "slopeInDegrees":6}",  "{"iucnStatus":"vulnerable", "taxonDistribution":"Neuquén, Argentina"}".		

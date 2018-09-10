@@ -1,27 +1,27 @@
-organism:1:Term	Organism		A particular organism or defined group of organisms considered to be taxonomically homogeneous.
-organism:2:Term	organismID	個體代碼	An identifier for the Organism instance (as opposed to a particular digital record of the Organism). May be a globally unique identifier or an identifier specific to the data set.
-organism:3:Term	organismName		A textual name or label assigned to an Organism instance.
-organism:4:Term	organismScope		A description of the kind of Organism instance. Can be used to indicate whether the Organism instance represents a discrete organism or if it represents a particular type of aggregation. Recommended best practice is to use a controlled vocabulary.
-organism:5:Term	associatedOccurrences		A list (concatenated and separated) of identifiers of other Occurrence records and their associations to this Occurrence.
-organism:6:Term	associatedOrganisms		A list (concatenated and separated) of identifiers of other Organisms and their associations to this Organism.
-organism:7:Term	previousIdentifications	舊名	A list (concatenated and separated) of previous assignments of names to the Organism.
-organism:8:Term	organismRemarks		Comments or notes about the Organism instance.
-organism:1:Definition	A particular organism or defined group of organisms considered to be taxonomically homogeneous.		
-organism:2:Definition	An identifier for the Organism instance (as opposed to a particular digital record of the Organism). May be a globally unique identifier or an identifier specific to the data set.	針對特定個體所賦予的代碼，	
-organism:3:Definition	A textual name or label assigned to an Organism instance.		
-organism:4:Definition	A description of the kind of Organism instance. Can be used to indicate whether the Organism instance represents a discrete organism or if it represents a particular type of aggregation. Recommended best practice is to use a controlled vocabulary.		
-organism:5:Definition	A list (concatenated and separated) of identifiers of other Occurrence records and their associations to this Occurrence.		
-organism:6:Definition	A list (concatenated and separated) of identifiers of other Organisms and their associations to this Organism.		
-organism:7:Definition	A list (concatenated and separated) of previous assignments of names to the Organism.	此筆出現紀錄之前被指派過的學名清單(使用標點符號分隔)。	
-organism:8:Definition	Comments or notes about the Organism instance.		
-organism:1:Comments	Instances of the Organism class are intended to facilitate linking of one or more Identification instances to one or more Occurrence instances. Therefore, things that are typically assigned scientific names (such as viruses, hybrids, and lichens) and aggregates whose occurrences are typically recorded (such as packs, clones, and colonies) are included in the scope of this class. 		
-organism:4:Comments	This term is not intended to be used to specify a type of taxon. To describe the kind of Organism using a URI object in RDF, use rdf:type (http://www.w3.org/1999/02/22-rdf-syntax-ns#type) instead. 		
-organism:5:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
-organism:6:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
-organism:7:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
-organism:8:Comments	Example: "One of a litter of six.".		
-organism:3:Examples	"Huberta",  "Boab Prison Tree",  "J pod".		
-organism:4:Examples	"multicellular organism",  "virus",  "clone" "pack",  "colony".		
-organism:6:Examples	"sibling of MXA-232",  "mother of MXA-231 | mother of MXA-232".		
-organism:7:Examples	"Chalepidae",  "Pinus abies",  "Anthus sp., field ID by G. Iglesias | Anthus correndera, expert ID by C. Cicero 2009-02-12 based on morphology".		
-organism:8:Examples	"One of a litter of six."		
+organism:1:Term (http://terms.tdwg.org/wiki/dwc:Organism)	Organism		A particular organism or defined group of organisms considered to be taxonomically homogeneous.
+organism:2:Term (http://terms.tdwg.org/wiki/dwc:organismID)	organismID	個體代碼	An identifier for the Organism instance (as opposed to a particular digital record of the Organism). May be a globally unique identifier or an identifier specific to the data set.
+organism:3:Term (http://terms.tdwg.org/wiki/dwc:organismName)	organismName		A textual name or label assigned to an Organism instance.
+organism:4:Term (http://terms.tdwg.org/wiki/dwc:organismScope)	organismScope		A description of the kind of Organism instance. Can be used to indicate whether the Organism instance represents a discrete organism or if it represents a particular type of aggregation. Recommended best practice is to use a controlled vocabulary.
+organism:5:Term (http://terms.tdwg.org/wiki/dwc:associatedOccurrences)	associatedOccurrences		A list (concatenated and separated) of identifiers of other Occurrence records and their associations to this Occurrence.
+organism:6:Term (http://terms.tdwg.org/wiki/dwc:associatedOrganisms)	associatedOrganisms		A list (concatenated and separated) of identifiers of other Organisms and their associations to this Organism.
+organism:7:Term (http://terms.tdwg.org/wiki/dwc:previousIdentifications)	previousIdentifications	舊名	A list (concatenated and separated) of previous assignments of names to the Organism.
+organism:8:Term (http://terms.tdwg.org/wiki/dwc:organismRemarks)	organismRemarks		Comments or notes about the Organism instance.
+organism:1:Definition of Organism (http://terms.tdwg.org/wiki/dwc:Organism)	A particular organism or defined group of organisms considered to be taxonomically homogeneous.		
+organism:2:Definition of organismID (http://terms.tdwg.org/wiki/dwc:organismID)	An identifier for the Organism instance (as opposed to a particular digital record of the Organism). May be a globally unique identifier or an identifier specific to the data set.	針對特定個體所賦予的代碼，	
+organism:3:Definition of organismName (http://terms.tdwg.org/wiki/dwc:organismName)	A textual name or label assigned to an Organism instance.		
+organism:4:Definition of organismScope (http://terms.tdwg.org/wiki/dwc:organismScope)	A description of the kind of Organism instance. Can be used to indicate whether the Organism instance represents a discrete organism or if it represents a particular type of aggregation. Recommended best practice is to use a controlled vocabulary.		
+organism:5:Definition of associatedOccurrences (http://terms.tdwg.org/wiki/dwc:associatedOccurrences)	A list (concatenated and separated) of identifiers of other Occurrence records and their associations to this Occurrence.		
+organism:6:Definition of associatedOrganisms (http://terms.tdwg.org/wiki/dwc:associatedOrganisms)	A list (concatenated and separated) of identifiers of other Organisms and their associations to this Organism.		
+organism:7:Definition of previousIdentifications (http://terms.tdwg.org/wiki/dwc:previousIdentifications)	A list (concatenated and separated) of previous assignments of names to the Organism.	此筆出現紀錄之前被指派過的學名清單(使用標點符號分隔)。	
+organism:8:Definition of organismRemarks (http://terms.tdwg.org/wiki/dwc:organismRemarks)	Comments or notes about the Organism instance.		
+organism:1:Comments of Organism (http://terms.tdwg.org/wiki/dwc:Organism)	Instances of the Organism class are intended to facilitate linking of one or more Identification instances to one or more Occurrence instances. Therefore, things that are typically assigned scientific names (such as viruses, hybrids, and lichens) and aggregates whose occurrences are typically recorded (such as packs, clones, and colonies) are included in the scope of this class. 		
+organism:4:Comments of organismScope (http://terms.tdwg.org/wiki/dwc:organismScope)	This term is not intended to be used to specify a type of taxon. To describe the kind of Organism using a URI object in RDF, use rdf:type (http://www.w3.org/1999/02/22-rdf-syntax-ns#type) instead. 		
+organism:5:Comments of associatedOccurrences (http://terms.tdwg.org/wiki/dwc:associatedOccurrences)	The recommended best practice is to separate the values with a vertical bar (' | ').		
+organism:6:Comments of associatedOrganisms (http://terms.tdwg.org/wiki/dwc:associatedOrganisms)	The recommended best practice is to separate the values with a vertical bar (' | ').		
+organism:7:Comments of previousIdentifications (http://terms.tdwg.org/wiki/dwc:previousIdentifications)	The recommended best practice is to separate the values with a vertical bar (' | ').		
+organism:8:Comments of organismRemarks (http://terms.tdwg.org/wiki/dwc:organismRemarks)	Example: "One of a litter of six.".		
+organism:3:Examples of organismName (http://terms.tdwg.org/wiki/dwc:organismName)	"Huberta",  "Boab Prison Tree",  "J pod".		
+organism:4:Examples of organismScope (http://terms.tdwg.org/wiki/dwc:organismScope)	"multicellular organism",  "virus",  "clone" "pack",  "colony".		
+organism:6:Examples of associatedOrganisms (http://terms.tdwg.org/wiki/dwc:associatedOrganisms)	"sibling of MXA-232",  "mother of MXA-231 | mother of MXA-232".		
+organism:7:Examples of previousIdentifications (http://terms.tdwg.org/wiki/dwc:previousIdentifications)	"Chalepidae",  "Pinus abies",  "Anthus sp., field ID by G. Iglesias | Anthus correndera, expert ID by C. Cicero 2009-02-12 based on morphology".		
+organism:8:Examples of organismRemarks (http://terms.tdwg.org/wiki/dwc:organismRemarks)	"One of a litter of six."		

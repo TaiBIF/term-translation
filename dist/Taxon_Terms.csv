@@ -1,104 +1,104 @@
-taxon:1:Term	Taxon		
-taxon:2:Term	taxonID	分類群識別碼	An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.
-taxon:3:Term	scientificNameID		An identifier for the nomenclatural (not taxonomic) details of a scientific name.
-taxon:4:Term	acceptedNameUsageID	有效使用名識別碼	An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.
-taxon:5:Term	parentNameUsageID		An identifier for the name usage (documented meaning of the name according to a source) of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.
-taxon:6:Term	originalNameUsageID		An identifier for the name usage (documented meaning of the name according to a source) in which the terminal element of the scientificName was originally established under the rules of the associated nomenclaturalCode.
-taxon:7:Term	nameAccordingToID		An identifier for the source in which the specific taxon concept circumscription is defined or implied. See nameAccordingTo.
-taxon:8:Term	namePublishedInID		An identifier for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
-taxon:9:Term	taxonConceptID	分類觀識別碼	An identifier for the taxonomic concept to which the record refers - not for the nomenclatural details of a taxon.
-taxon:10:Term	scientificName	學名	The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the identificationQualifier term.
-taxon:11:Term	acceptedNameUsage	有效使用名	The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon.
-taxon:12:Term	parentNameUsage		The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.
-taxon:13:Term	originalNameUsage		The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names.
-taxon:14:Term	nameAccordingTo		The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.
-taxon:15:Term	namePublishedIn		A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
-taxon:16:Term	namePublishedInYear		The four-digit year in which the scientificName was published.
-taxon:17:Term	higherClassification	高階分類	A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.
-taxon:18:Term	kingdom	界	The full scientific name of the kingdom in which the taxon is classified.
-taxon:19:Term	phylum	門	The full scientific name of the phylum or division in which the taxon is classified.
-taxon:20:Term	class	綱	The full scientific name of the class in which the taxon is classified.
-taxon:21:Term	order	目	The full scientific name of the order in which the taxon is classified.
-taxon:22:Term	family	科	The full scientific name of the family in which the taxon is classified.
-taxon:23:Term	genus	屬	The full scientific name of the genus in which the taxon is classified.
-taxon:24:Term	subgenus	亞屬	The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.
-taxon:25:Term	specificEpithet	種小名	The name of the first or species epithet of the scientificName.
-taxon:26:Term	infraspecificEpithet	亞種小名/種下名	The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.
-taxon:27:Term	taxonRank	分類階層	The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.
-taxon:28:Term	verbatimTaxonRank	字面分類階層	The taxonomic rank of the most specific name in the scientificName as it appears in the original record.
-taxon:29:Term	scientificNameAuthorship	學名命名者	The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.
-taxon:30:Term	vernacularName	俗名	A common or vernacular name.
-taxon:31:Term	nomenclaturalCode	命名法規	The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed. Recommended best practice is to use a controlled vocabulary.
-taxon:32:Term	taxonomicStatus		The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept. Recommended best practice is to use a controlled vocabulary.
-taxon:33:Term	nomenclaturalStatus		The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code. It requires no taxonomic opinion.
-taxon:34:Term	taxonRemarks	分類備註	Comments or notes about the taxon or name.
-taxon:2:Definition	An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.	在 TDWG 釋出的 DwC 官方文件中，taxonID 被定義為一組用來代表特定分類資訊 (taxon information) 的識別碼，其欄位值可為一組全球或至少於該資料集內部為獨一無二的字串組合。	
-taxon:3:Definition	An identifier for the nomenclatural (not taxonomic) details of a scientific name.		
-taxon:4:Definition	An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.		
-taxon:5:Definition	An identifier for the name usage (documented meaning of the name according to a source) of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.		
-taxon:6:Definition	An identifier for the name usage (documented meaning of the name according to a source) in which the terminal element of the scientificName was originally established under the rules of the associated nomenclaturalCode.		
-taxon:7:Definition	An identifier for the source in which the specific taxon concept circumscription is defined or implied. See nameAccordingTo.		
-taxon:8:Definition	An identifier for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.		
-taxon:9:Definition	An identifier for the taxonomic concept to which the record refers - not for the nomenclatural details of a taxon.	在 TDWG 釋出的 DwC 官方文件中，taxonConceptID 被定義為一組用來指向一筆紀錄所採用分類觀點的識別碼。 請注意，taxonConceptID 並非用於處理紀錄中生物在命名上 (nomenclatural) 的資訊，故不應直接將學名填入此欄。	
-taxon:10:Definition	The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the identificationQualifier term.		
-taxon:11:Definition	The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon.		
-taxon:12:Definition	The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.		
-taxon:13:Definition	The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names.		
-taxon:14:Definition	The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.		
-taxon:15:Definition	A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.		
-taxon:16:Definition	The four-digit year in which the scientificName was published.		
-taxon:17:Definition	A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.		
-taxon:18:Definition	The full scientific name of the kingdom in which the taxon is classified.		
-taxon:19:Definition	The full scientific name of the phylum or division in which the taxon is classified.		
-taxon:20:Definition	The full scientific name of the class in which the taxon is classified.		
-taxon:21:Definition	The full scientific name of the order in which the taxon is classified.		
-taxon:22:Definition	The full scientific name of the family in which the taxon is classified.		
-taxon:23:Definition	The full scientific name of the genus in which the taxon is classified.		
-taxon:24:Definition	The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.		
-taxon:25:Definition	The name of the first or species epithet of the scientificName.		
-taxon:26:Definition	The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.		
-taxon:27:Definition	The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.		
-taxon:28:Definition	The taxonomic rank of the most specific name in the scientificName as it appears in the original record.		
-taxon:29:Definition	The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.		
-taxon:30:Definition	A common or vernacular name.		
-taxon:31:Definition	The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed. Recommended best practice is to use a controlled vocabulary.		
-taxon:32:Definition	The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept. Recommended best practice is to use a controlled vocabulary.		
-taxon:33:Definition	The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code. It requires no taxonomic opinion.		
-taxon:34:Definition	Comments or notes about the taxon or name.		
-taxon:2:Comments		taxonID 與 taxonConceptID 在定義及使用的時機上有何差異？ •建議可先瞭解 TDWG 在 DwC 中對 taxonID 的定義•在 GBIF 資料標準中，taxonID 可能較適用於 Taxon Core 或 Txaon Extension，此時 taxonID 做為每個分類群在資料集中的識別碼，主要目的在於確保每個分類群在資料集中具有唯一性。 •在 GBIF 資料標準中，taxonConceptID 可能較適用於 Occurrence Core 或 Occurrence Extension，用來指出鑑定者基於哪個分類觀點而將特定 occurrence 對應到特定學名，其欄位值可以是一個指向特定分類文獻的 URL 或 DOI。	
-taxon:9:Comments		taxonID 與 taxonConceptID 在定義及使用的時機上有何差異？ •建議可先瞭解 TDWG 在 DwC 中對 taxonID 的定義•在 GBIF 資料標準中，taxonID 可能較適用於 Taxon Core 或 Txaon Extension，此時 taxonID 做為每個分類群在資料集中的識別碼，主要目的在於確保每個分類群在資料集中具有唯一性。 •在 GBIF 資料標準中，taxonConceptID 可能較適用於 Occurrence Core 或 Occurrence Extension，用來指出鑑定者基於哪個分類觀點而將特定 occurrence 對應到特定學名，其欄位值可以是一個指向特定分類文獻的 URL 或 DOI。	
-taxon:17:Comments	The recommended best practice is to separate the values with a vertical bar (' | '), with terms in order from the highest taxonomic rank to the lowest.		
-taxon:1:Examples	The genus Truncorotaloides as published by Brönnimann et al. in 1953 in the Journal of Paleontology Vol. 27(6) p. 817-820. 		
-taxon:2:Examples	"8fa58e08-08de-4ac1-b69c-1235340b7001",  "32567",  "http://species.gbif.org/abies_alba_1753",  "urn:lsid:gbif.org:usages:32567".		
-taxon:3:Examples	"urn:lsid:ipni.org:names:37829-1:1.3".		
-taxon:4:Examples	"8fa58e08-08de-4ac1-b69c-1235340b7001".		
-taxon:5:Examples	"8fa58e08-08de-4ac1-b69c-1235340b7001".		
-taxon:6:Examples	"http://species.gbif.org/abies_alba_1753".		
-taxon:7:Examples	"doi:10.1016/S0269-915X(97)80026-2".		
-taxon:8:Examples	"http://hdl.handle.net/10199/7".		
-taxon:9:Examples	"8fa58e08-08de-4ac1-b69c-1235340b7001".		
-taxon:10:Examples	"Coleoptera" (order),  "Vespertilionidae" (family),  "Manis" (genus),  "Ctenomys sociabilis" (genus + specificEpithet),  "Ambystoma tigrinum diaboli" (genus + specificEpithet + infraspecificEpithet),  "Roptrocerus typographi (Györfi, 1952)" (genus + specificEpithet + scientificNameAuthorship),  "Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell" (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship).		
-taxon:11:Examples	"Tamias minimus" valid name for "Eutamias minimus".		
-taxon:12:Examples	"Rubiaceae",  "Gruiformes",  "Testudinae".		
-taxon:13:Examples	"Pinus abies",  "Gasterosteus saltatrix Linnaeus 1768".		
-taxon:14:Examples	"McCranie, J. R., D. B. Wake, and L. D. Wilson. 1996. The taxonomic status of Bolitoglossa schmidti, with comments on the biology of the Mesoamerican salamander Bolitoglossa dofleini (Caudata: Plethodontidae). Carib. J. Sci. 32:395-398.",  "Werner Greuter 2008",  "Lilljeborg 1861, Upsala Univ. Arsskrift, Math. Naturvet., pp. 4, 5".		
-taxon:15:Examples	"Pearson O. P., and M. I. Christie. 1985. Historia Natural, 5(37):388",  "Forel, Auguste, Diagnosies provisoires de quelques espèces nouvelles de fourmis de Madagascar, récoltées par M. Grandidier., Annales de la Societe Entomologique de Belgique, Comptes-rendus des Seances 30, 1886".		
-taxon:16:Examples	"1915",  "2008".		
-taxon:17:Examples	"Animalia",  "Animalia | Chordata | Vertebrata | Mammalia | Theria | Eutheria | Rodentia | Hystricognatha | Hystricognathi | Ctenomyidae | Ctenomyini | Ctenomys".		
-taxon:18:Examples	"Animalia",  "Plantae".		
-taxon:19:Examples	"Chordata" (phylum),  "Bryophyta" (division).		
-taxon:20:Examples	"Mammalia",  "Hepaticopsida".		
-taxon:21:Examples	"Carnivora",  "Monocleales".		
-taxon:22:Examples	"Felidae",  "Monocleaceae".		
-taxon:23:Examples	"Puma",  "Monoclea".		
-taxon:24:Examples	"Strobus (Pinus)",  "Puma (Puma)" "Loligo (Amerigo)",  "Hieracium subgen. Pilosella".		
-taxon:25:Examples	"concolor",  "gottschei".		
-taxon:26:Examples	"concolor",  "oxyadenia",  "sayi".		
-taxon:27:Examples	"subspecies",  "varietas",  "forma",  "species",  "genus".		
-taxon:28:Examples	"Agamospecies",  "sub-lesus",  "prole",  "apomict",  "nothogrex",  "sp.",  "subsp.",  "var.".		
-taxon:29:Examples	"(Torr.) J.T. Howell",  "(Martinovský) Tzvelev",  "(Györfi, 1952)".		
-taxon:30:Examples	"Andean Condor",  "Condor Andino",  "American Eagle",  "Gänsegeier".		
-taxon:31:Examples	"ICBN",  "ICZN",  "BC",  "ICNCP",  "BioCode",  "ICZN; ICBN".		
-taxon:32:Examples	"invalid",  "misapplied",  "homotypic synonym",  "accepted".		
-taxon:33:Examples	"nom. ambig.",  "nom. illeg.",  "nom. subnud.".		
-taxon:34:Examples	"this name is a misspelling in common use".		
+taxon:1:Term (http://terms.tdwg.org/wiki/dwc:Taxon)	Taxon		
+taxon:2:Term (http://terms.tdwg.org/wiki/dwc:taxonID)	taxonID	分類群識別碼	An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.
+taxon:3:Term (http://terms.tdwg.org/wiki/dwc:scientificNameID)	scientificNameID		An identifier for the nomenclatural (not taxonomic) details of a scientific name.
+taxon:4:Term (http://terms.tdwg.org/wiki/dwc:acceptedNameUsageID)	acceptedNameUsageID	有效使用名識別碼	An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.
+taxon:5:Term (http://terms.tdwg.org/wiki/dwc:parentNameUsageID)	parentNameUsageID		An identifier for the name usage (documented meaning of the name according to a source) of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.
+taxon:6:Term (http://terms.tdwg.org/wiki/dwc:originalNameUsageID)	originalNameUsageID		An identifier for the name usage (documented meaning of the name according to a source) in which the terminal element of the scientificName was originally established under the rules of the associated nomenclaturalCode.
+taxon:7:Term (http://terms.tdwg.org/wiki/dwc:nameAccordingToID)	nameAccordingToID		An identifier for the source in which the specific taxon concept circumscription is defined or implied. See nameAccordingTo.
+taxon:8:Term (http://terms.tdwg.org/wiki/dwc:namePublishedInID)	namePublishedInID		An identifier for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
+taxon:9:Term (http://terms.tdwg.org/wiki/dwc:taxonConceptID)	taxonConceptID	分類觀識別碼	An identifier for the taxonomic concept to which the record refers - not for the nomenclatural details of a taxon.
+taxon:10:Term (http://terms.tdwg.org/wiki/dwc:scientificName)	scientificName	學名	The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the identificationQualifier term.
+taxon:11:Term (http://terms.tdwg.org/wiki/dwc:acceptedNameUsage)	acceptedNameUsage	有效使用名	The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon.
+taxon:12:Term (http://terms.tdwg.org/wiki/dwc:parentNameUsage)	parentNameUsage		The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.
+taxon:13:Term (http://terms.tdwg.org/wiki/dwc:originalNameUsage)	originalNameUsage		The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names.
+taxon:14:Term (http://terms.tdwg.org/wiki/dwc:nameAccordingTo)	nameAccordingTo		The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.
+taxon:15:Term (http://terms.tdwg.org/wiki/dwc:namePublishedIn)	namePublishedIn		A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
+taxon:16:Term (http://terms.tdwg.org/wiki/dwc:namePublishedInYear)	namePublishedInYear		The four-digit year in which the scientificName was published.
+taxon:17:Term (http://terms.tdwg.org/wiki/dwc:higherClassification)	higherClassification	高階分類	A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.
+taxon:18:Term (http://terms.tdwg.org/wiki/dwc:kingdom)	kingdom	界	The full scientific name of the kingdom in which the taxon is classified.
+taxon:19:Term (http://terms.tdwg.org/wiki/dwc:phylum)	phylum	門	The full scientific name of the phylum or division in which the taxon is classified.
+taxon:20:Term (http://terms.tdwg.org/wiki/dwc:class)	class	綱	The full scientific name of the class in which the taxon is classified.
+taxon:21:Term (http://terms.tdwg.org/wiki/dwc:order)	order	目	The full scientific name of the order in which the taxon is classified.
+taxon:22:Term (http://terms.tdwg.org/wiki/dwc:family)	family	科	The full scientific name of the family in which the taxon is classified.
+taxon:23:Term (http://terms.tdwg.org/wiki/dwc:genus)	genus	屬	The full scientific name of the genus in which the taxon is classified.
+taxon:24:Term (http://terms.tdwg.org/wiki/dwc:subgenus)	subgenus	亞屬	The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.
+taxon:25:Term (http://terms.tdwg.org/wiki/dwc:specificEpithet)	specificEpithet	種小名	The name of the first or species epithet of the scientificName.
+taxon:26:Term (http://terms.tdwg.org/wiki/dwc:infraspecificEpithet)	infraspecificEpithet	亞種小名/種下名	The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.
+taxon:27:Term (http://terms.tdwg.org/wiki/dwc:taxonRank)	taxonRank	分類階層	The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.
+taxon:28:Term (http://terms.tdwg.org/wiki/dwc:verbatimTaxonRank)	verbatimTaxonRank	字面分類階層	The taxonomic rank of the most specific name in the scientificName as it appears in the original record.
+taxon:29:Term (http://terms.tdwg.org/wiki/dwc:scientificNameAuthorship)	scientificNameAuthorship	學名命名者	The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.
+taxon:30:Term (http://terms.tdwg.org/wiki/dwc:vernacularName)	vernacularName	俗名	A common or vernacular name.
+taxon:31:Term (http://terms.tdwg.org/wiki/dwc:nomenclaturalCode)	nomenclaturalCode	命名法規	The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed. Recommended best practice is to use a controlled vocabulary.
+taxon:32:Term (http://terms.tdwg.org/wiki/dwc:taxonomicStatus)	taxonomicStatus		The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept. Recommended best practice is to use a controlled vocabulary.
+taxon:33:Term (http://terms.tdwg.org/wiki/dwc:nomenclaturalStatus)	nomenclaturalStatus		The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code. It requires no taxonomic opinion.
+taxon:34:Term (http://terms.tdwg.org/wiki/dwc:taxonRemarks)	taxonRemarks	分類備註	Comments or notes about the taxon or name.
+taxon:2:Definition of taxonID (http://terms.tdwg.org/wiki/dwc:taxonID)	An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.	在 TDWG 釋出的 DwC 官方文件中，taxonID 被定義為一組用來代表特定分類資訊 (taxon information) 的識別碼，其欄位值可為一組全球或至少於該資料集內部為獨一無二的字串組合。	
+taxon:3:Definition of scientificNameID (http://terms.tdwg.org/wiki/dwc:scientificNameID)	An identifier for the nomenclatural (not taxonomic) details of a scientific name.		
+taxon:4:Definition of acceptedNameUsageID (http://terms.tdwg.org/wiki/dwc:acceptedNameUsageID)	An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.		
+taxon:5:Definition of parentNameUsageID (http://terms.tdwg.org/wiki/dwc:parentNameUsageID)	An identifier for the name usage (documented meaning of the name according to a source) of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.		
+taxon:6:Definition of originalNameUsageID (http://terms.tdwg.org/wiki/dwc:originalNameUsageID)	An identifier for the name usage (documented meaning of the name according to a source) in which the terminal element of the scientificName was originally established under the rules of the associated nomenclaturalCode.		
+taxon:7:Definition of nameAccordingToID (http://terms.tdwg.org/wiki/dwc:nameAccordingToID)	An identifier for the source in which the specific taxon concept circumscription is defined or implied. See nameAccordingTo.		
+taxon:8:Definition of namePublishedInID (http://terms.tdwg.org/wiki/dwc:namePublishedInID)	An identifier for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.		
+taxon:9:Definition of taxonConceptID (http://terms.tdwg.org/wiki/dwc:taxonConceptID)	An identifier for the taxonomic concept to which the record refers - not for the nomenclatural details of a taxon.	在 TDWG 釋出的 DwC 官方文件中，taxonConceptID 被定義為一組用來指向一筆紀錄所採用分類觀點的識別碼。 請注意，taxonConceptID 並非用於處理紀錄中生物在命名上 (nomenclatural) 的資訊，故不應直接將學名填入此欄。	
+taxon:10:Definition of scientificName (http://terms.tdwg.org/wiki/dwc:scientificName)	The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the identificationQualifier term.		
+taxon:11:Definition of acceptedNameUsage (http://terms.tdwg.org/wiki/dwc:acceptedNameUsage)	The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon.		
+taxon:12:Definition of parentNameUsage (http://terms.tdwg.org/wiki/dwc:parentNameUsage)	The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.		
+taxon:13:Definition of originalNameUsage (http://terms.tdwg.org/wiki/dwc:originalNameUsage)	The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names.		
+taxon:14:Definition of nameAccordingTo (http://terms.tdwg.org/wiki/dwc:nameAccordingTo)	The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.		
+taxon:15:Definition of namePublishedIn (http://terms.tdwg.org/wiki/dwc:namePublishedIn)	A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.		
+taxon:16:Definition of namePublishedInYear (http://terms.tdwg.org/wiki/dwc:namePublishedInYear)	The four-digit year in which the scientificName was published.		
+taxon:17:Definition of higherClassification (http://terms.tdwg.org/wiki/dwc:higherClassification)	A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.		
+taxon:18:Definition of kingdom (http://terms.tdwg.org/wiki/dwc:kingdom)	The full scientific name of the kingdom in which the taxon is classified.		
+taxon:19:Definition of phylum (http://terms.tdwg.org/wiki/dwc:phylum)	The full scientific name of the phylum or division in which the taxon is classified.		
+taxon:20:Definition of class (http://terms.tdwg.org/wiki/dwc:class)	The full scientific name of the class in which the taxon is classified.		
+taxon:21:Definition of order (http://terms.tdwg.org/wiki/dwc:order)	The full scientific name of the order in which the taxon is classified.		
+taxon:22:Definition of family (http://terms.tdwg.org/wiki/dwc:family)	The full scientific name of the family in which the taxon is classified.		
+taxon:23:Definition of genus (http://terms.tdwg.org/wiki/dwc:genus)	The full scientific name of the genus in which the taxon is classified.		
+taxon:24:Definition of subgenus (http://terms.tdwg.org/wiki/dwc:subgenus)	The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.		
+taxon:25:Definition of specificEpithet (http://terms.tdwg.org/wiki/dwc:specificEpithet)	The name of the first or species epithet of the scientificName.		
+taxon:26:Definition of infraspecificEpithet (http://terms.tdwg.org/wiki/dwc:infraspecificEpithet)	The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.		
+taxon:27:Definition of taxonRank (http://terms.tdwg.org/wiki/dwc:taxonRank)	The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.		
+taxon:28:Definition of verbatimTaxonRank (http://terms.tdwg.org/wiki/dwc:verbatimTaxonRank)	The taxonomic rank of the most specific name in the scientificName as it appears in the original record.		
+taxon:29:Definition of scientificNameAuthorship (http://terms.tdwg.org/wiki/dwc:scientificNameAuthorship)	The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.		
+taxon:30:Definition of vernacularName (http://terms.tdwg.org/wiki/dwc:vernacularName)	A common or vernacular name.		
+taxon:31:Definition of nomenclaturalCode (http://terms.tdwg.org/wiki/dwc:nomenclaturalCode)	The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed. Recommended best practice is to use a controlled vocabulary.		
+taxon:32:Definition of taxonomicStatus (http://terms.tdwg.org/wiki/dwc:taxonomicStatus)	The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept. Recommended best practice is to use a controlled vocabulary.		
+taxon:33:Definition of nomenclaturalStatus (http://terms.tdwg.org/wiki/dwc:nomenclaturalStatus)	The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code. It requires no taxonomic opinion.		
+taxon:34:Definition of taxonRemarks (http://terms.tdwg.org/wiki/dwc:taxonRemarks)	Comments or notes about the taxon or name.		
+taxon:2:Comments of taxonID (http://terms.tdwg.org/wiki/dwc:taxonID)		taxonID 與 taxonConceptID 在定義及使用的時機上有何差異？ •建議可先瞭解 TDWG 在 DwC 中對 taxonID 的定義•在 GBIF 資料標準中，taxonID 可能較適用於 Taxon Core 或 Txaon Extension，此時 taxonID 做為每個分類群在資料集中的識別碼，主要目的在於確保每個分類群在資料集中具有唯一性。 •在 GBIF 資料標準中，taxonConceptID 可能較適用於 Occurrence Core 或 Occurrence Extension，用來指出鑑定者基於哪個分類觀點而將特定 occurrence 對應到特定學名，其欄位值可以是一個指向特定分類文獻的 URL 或 DOI。	
+taxon:9:Comments of taxonConceptID (http://terms.tdwg.org/wiki/dwc:taxonConceptID)		taxonID 與 taxonConceptID 在定義及使用的時機上有何差異？ •建議可先瞭解 TDWG 在 DwC 中對 taxonID 的定義•在 GBIF 資料標準中，taxonID 可能較適用於 Taxon Core 或 Txaon Extension，此時 taxonID 做為每個分類群在資料集中的識別碼，主要目的在於確保每個分類群在資料集中具有唯一性。 •在 GBIF 資料標準中，taxonConceptID 可能較適用於 Occurrence Core 或 Occurrence Extension，用來指出鑑定者基於哪個分類觀點而將特定 occurrence 對應到特定學名，其欄位值可以是一個指向特定分類文獻的 URL 或 DOI。	
+taxon:17:Comments of higherClassification (http://terms.tdwg.org/wiki/dwc:higherClassification)	The recommended best practice is to separate the values with a vertical bar (' | '), with terms in order from the highest taxonomic rank to the lowest.		
+taxon:1:Examples of Taxon (http://terms.tdwg.org/wiki/dwc:Taxon)	The genus Truncorotaloides as published by Brönnimann et al. in 1953 in the Journal of Paleontology Vol. 27(6) p. 817-820. 		
+taxon:2:Examples of taxonID (http://terms.tdwg.org/wiki/dwc:taxonID)	"8fa58e08-08de-4ac1-b69c-1235340b7001",  "32567",  "http://species.gbif.org/abies_alba_1753",  "urn:lsid:gbif.org:usages:32567".		
+taxon:3:Examples of scientificNameID (http://terms.tdwg.org/wiki/dwc:scientificNameID)	"urn:lsid:ipni.org:names:37829-1:1.3".		
+taxon:4:Examples of acceptedNameUsageID (http://terms.tdwg.org/wiki/dwc:acceptedNameUsageID)	"8fa58e08-08de-4ac1-b69c-1235340b7001".		
+taxon:5:Examples of parentNameUsageID (http://terms.tdwg.org/wiki/dwc:parentNameUsageID)	"8fa58e08-08de-4ac1-b69c-1235340b7001".		
+taxon:6:Examples of originalNameUsageID (http://terms.tdwg.org/wiki/dwc:originalNameUsageID)	"http://species.gbif.org/abies_alba_1753".		
+taxon:7:Examples of nameAccordingToID (http://terms.tdwg.org/wiki/dwc:nameAccordingToID)	"doi:10.1016/S0269-915X(97)80026-2".		
+taxon:8:Examples of namePublishedInID (http://terms.tdwg.org/wiki/dwc:namePublishedInID)	"http://hdl.handle.net/10199/7".		
+taxon:9:Examples of taxonConceptID (http://terms.tdwg.org/wiki/dwc:taxonConceptID)	"8fa58e08-08de-4ac1-b69c-1235340b7001".		
+taxon:10:Examples of scientificName (http://terms.tdwg.org/wiki/dwc:scientificName)	"Coleoptera" (order),  "Vespertilionidae" (family),  "Manis" (genus),  "Ctenomys sociabilis" (genus + specificEpithet),  "Ambystoma tigrinum diaboli" (genus + specificEpithet + infraspecificEpithet),  "Roptrocerus typographi (Györfi, 1952)" (genus + specificEpithet + scientificNameAuthorship),  "Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell" (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship).		
+taxon:11:Examples of acceptedNameUsage (http://terms.tdwg.org/wiki/dwc:acceptedNameUsage)	"Tamias minimus" valid name for "Eutamias minimus".		
+taxon:12:Examples of parentNameUsage (http://terms.tdwg.org/wiki/dwc:parentNameUsage)	"Rubiaceae",  "Gruiformes",  "Testudinae".		
+taxon:13:Examples of originalNameUsage (http://terms.tdwg.org/wiki/dwc:originalNameUsage)	"Pinus abies",  "Gasterosteus saltatrix Linnaeus 1768".		
+taxon:14:Examples of nameAccordingTo (http://terms.tdwg.org/wiki/dwc:nameAccordingTo)	"McCranie, J. R., D. B. Wake, and L. D. Wilson. 1996. The taxonomic status of Bolitoglossa schmidti, with comments on the biology of the Mesoamerican salamander Bolitoglossa dofleini (Caudata: Plethodontidae). Carib. J. Sci. 32:395-398.",  "Werner Greuter 2008",  "Lilljeborg 1861, Upsala Univ. Arsskrift, Math. Naturvet., pp. 4, 5".		
+taxon:15:Examples of namePublishedIn (http://terms.tdwg.org/wiki/dwc:namePublishedIn)	"Pearson O. P., and M. I. Christie. 1985. Historia Natural, 5(37):388",  "Forel, Auguste, Diagnosies provisoires de quelques espèces nouvelles de fourmis de Madagascar, récoltées par M. Grandidier., Annales de la Societe Entomologique de Belgique, Comptes-rendus des Seances 30, 1886".		
+taxon:16:Examples of namePublishedInYear (http://terms.tdwg.org/wiki/dwc:namePublishedInYear)	"1915",  "2008".		
+taxon:17:Examples of higherClassification (http://terms.tdwg.org/wiki/dwc:higherClassification)	"Animalia",  "Animalia | Chordata | Vertebrata | Mammalia | Theria | Eutheria | Rodentia | Hystricognatha | Hystricognathi | Ctenomyidae | Ctenomyini | Ctenomys".		
+taxon:18:Examples of kingdom (http://terms.tdwg.org/wiki/dwc:kingdom)	"Animalia",  "Plantae".		
+taxon:19:Examples of phylum (http://terms.tdwg.org/wiki/dwc:phylum)	"Chordata" (phylum),  "Bryophyta" (division).		
+taxon:20:Examples of class (http://terms.tdwg.org/wiki/dwc:class)	"Mammalia",  "Hepaticopsida".		
+taxon:21:Examples of order (http://terms.tdwg.org/wiki/dwc:order)	"Carnivora",  "Monocleales".		
+taxon:22:Examples of family (http://terms.tdwg.org/wiki/dwc:family)	"Felidae",  "Monocleaceae".		
+taxon:23:Examples of genus (http://terms.tdwg.org/wiki/dwc:genus)	"Puma",  "Monoclea".		
+taxon:24:Examples of subgenus (http://terms.tdwg.org/wiki/dwc:subgenus)	"Strobus (Pinus)",  "Puma (Puma)" "Loligo (Amerigo)",  "Hieracium subgen. Pilosella".		
+taxon:25:Examples of specificEpithet (http://terms.tdwg.org/wiki/dwc:specificEpithet)	"concolor",  "gottschei".		
+taxon:26:Examples of infraspecificEpithet (http://terms.tdwg.org/wiki/dwc:infraspecificEpithet)	"concolor",  "oxyadenia",  "sayi".		
+taxon:27:Examples of taxonRank (http://terms.tdwg.org/wiki/dwc:taxonRank)	"subspecies",  "varietas",  "forma",  "species",  "genus".		
+taxon:28:Examples of verbatimTaxonRank (http://terms.tdwg.org/wiki/dwc:verbatimTaxonRank)	"Agamospecies",  "sub-lesus",  "prole",  "apomict",  "nothogrex",  "sp.",  "subsp.",  "var.".		
+taxon:29:Examples of scientificNameAuthorship (http://terms.tdwg.org/wiki/dwc:scientificNameAuthorship)	"(Torr.) J.T. Howell",  "(Martinovský) Tzvelev",  "(Györfi, 1952)".		
+taxon:30:Examples of vernacularName (http://terms.tdwg.org/wiki/dwc:vernacularName)	"Andean Condor",  "Condor Andino",  "American Eagle",  "Gänsegeier".		
+taxon:31:Examples of nomenclaturalCode (http://terms.tdwg.org/wiki/dwc:nomenclaturalCode)	"ICBN",  "ICZN",  "BC",  "ICNCP",  "BioCode",  "ICZN; ICBN".		
+taxon:32:Examples of taxonomicStatus (http://terms.tdwg.org/wiki/dwc:taxonomicStatus)	"invalid",  "misapplied",  "homotypic synonym",  "accepted".		
+taxon:33:Examples of nomenclaturalStatus (http://terms.tdwg.org/wiki/dwc:nomenclaturalStatus)	"nom. ambig.",  "nom. illeg.",  "nom. subnud.".		
+taxon:34:Examples of taxonRemarks (http://terms.tdwg.org/wiki/dwc:taxonRemarks)	"this name is a misspelling in common use".		
