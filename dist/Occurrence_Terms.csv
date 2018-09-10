@@ -1,0 +1,74 @@
+occurrence:1:Term	Occurrence		An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time.
+occurrence:2:Term	occurrenceID	生物出現紀錄識別碼	An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique.
+occurrence:3:Term	catalogNumber	編目號	An identifier (preferably unique) for the record within the data set or collection.
+occurrence:4:Term	recordNumber	野外採集號	An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number.
+occurrence:5:Term	recordedBy	資料記錄者	A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.
+occurrence:6:Term	individualCount	個體數	The number of individuals represented present at the time of the Occurrence.
+occurrence:7:Term	organismQuantity	數值	A number or enumeration value for the quantity of organisms.
+occurrence:8:Term	organismQuantityType	單位	The type of quantification system used for the quantity of organisms.
+occurrence:9:Term	sex	性別	The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.
+occurrence:10:Term	lifeStage	生活史階段	The age class or life stage of the biological individual(s) at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.
+occurrence:11:Term	reproductiveCondition	生殖狀況	The reproductive condition of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.
+occurrence:12:Term	behavior	行為	A description of the behavior shown by the subject at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.
+occurrence:13:Term	establishmentMeans	拓殖意義	The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary.
+occurrence:14:Term	occurrenceStatus	出現狀態	A statement about the presence or absence of a Taxon at a Location. Recommended best practice is to use a controlled vocabulary.
+occurrence:15:Term	preparations	製備過程	A list (concatenated and separated) of preparations and preservation methods for a specimen.
+occurrence:16:Term	disposition	標本現況	The current state of a specimen with respect to the collection identified in collectionCode or collectionID. Recommended best practice is to use a controlled vocabulary.
+occurrence:17:Term	associatedMedia	相關記載媒體	A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of media associated with the Occurrence.
+occurrence:18:Term	associatedReferences	相關文獻	A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.
+occurrence:19:Term	associatedSequences	相關遺傳序列	A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence.
+occurrence:20:Term	associatedTaxa	相關類群	A list (concatenated and separated) of identifiers or names of taxa and their associations with the Occurrence.
+occurrence:21:Term	otherCatalogNumbers	其他紀錄代號	A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection.
+occurrence:22:Term	occurrenceRemarks	出現記錄概述	Comments or notes about the Occurrence.
+occurrence:1:Definition	An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time.		
+occurrence:2:Definition	An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique.	TDWG 定義生物出現紀錄 (occurrence) 為「特定生物於特定時間存在於特定地點」。而為確保資料集中生物出現紀錄的唯一性，需要至少在資料集內部為獨一無二的識別碼，此即 occurrenceID。	
+occurrence:3:Definition	An identifier (preferably unique) for the record within the data set or collection.	於資料集或館藏品中紀錄的識別碼（具唯一性者佳）。	
+occurrence:4:Definition	An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number.	在 TDWG 釋出的 DwC 官方文件中，record 帶有「現地紀錄」或「於現地所做紀錄」的意涵。由此衍生，recordNumber 係指紀錄者在紀錄產生當下配賦給紀錄的編碼。	
+occurrence:5:Definition	A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.	記錄出現記錄的人名、團體或組織名單(以標點符號分隔)。本名單之第一順位應是賦予此筆紀錄個人識別碼(紀錄編號(recordNumber)的人名、團體或組織名字。	
+occurrence:6:Definition	The number of individuals represented present at the time of the Occurrence.	Occurrence 中被記錄到的生物個體數	
+occurrence:7:Definition	A number or enumeration value for the quantity of organisms.		
+occurrence:8:Definition	The type of quantification system used for the quantity of organisms.		
+occurrence:9:Definition	The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.	生物出現紀錄中呈現的生物個體性別，建議使用控制詞彙。如"雄"、“雌雄同體”、“雌”。	
+occurrence:10:Definition	The age class or life stage of the biological individual(s) at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.	生物個體被記錄時的齡級或生活史階段，建議使用控制詞彙。如:“卵”、“水蜥階段(eft)”、“幼齡(juvenile)”、“成體(adult)”、“2 成體 4 幼齡”	
+occurrence:11:Definition	The reproductive condition of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.	生物個體被記錄時的生殖相關狀態，建議使用控制詞彙。如:“非繁殖狀態”、“懷孕”、“開花”、"結果"等	
+occurrence:12:Definition	A description of the behavior shown by the subject at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.	生物個體被記錄時的行為，建議使用控制詞彙。如:“築巢”、“覓食”、"奔跑"等	
+occurrence:13:Definition	The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary.	生物個體於一個新地區拓殖時，其拓展所代表的意義。如:“原生”、“入侵”、“引進”、“歸化”、"管控中"等	
+occurrence:14:Definition	A statement about the presence or absence of a Taxon at a Location. Recommended best practice is to use a controlled vocabulary.		
+occurrence:15:Definition	A list (concatenated and separated) of preparations and preservation methods for a specimen.	標本處理及保存方法清單(使用標點符號分隔)。	
+occurrence:16:Definition	The current state of a specimen with respect to the collection identified in collectionCode or collectionID. Recommended best practice is to use a controlled vocabulary.	被登記於某collectionID或CollectionCode的標本，其目前的狀態，建議使用控制詞彙。如"典藏中"、“遺失”、“外借他處”、“複本於他處”	
+occurrence:17:Definition	A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of media associated with the Occurrence.	與此出現紀錄的相關各式媒體(如影像、影片、音訊等資訊於出版刊物、全球唯一識別碼、網址或其他URI等出處)列表(使用標點符號分隔)。	
+occurrence:18:Definition	A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.	與此出現紀錄相關的文獻(如出版刊物、學術引用、全球唯一識別碼或URI等)列表(使用標點符號分隔)。	
+occurrence:19:Definition	A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence.	與此出現紀錄相關的遺傳序列(如出版刊物、全球唯一識別碼或URI等)列表(使用標點符號分隔)。	
+occurrence:20:Definition	A list (concatenated and separated) of identifiers or names of taxa and their associations with the Occurrence.	與此出現紀錄相關的生物名錄(使用標點符號分隔)，如 “host: Quercus alba”、“parasitoid of:Cyclocephala signaticollis | predator of Apis mellifera”。	
+occurrence:21:Definition	A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection.	此筆紀錄先前被任何人所發表的完整、被認可的代號或編號列表(使用標點符號分隔)，無論是否在相同的資料集或其他藏品中。如"FMNH:Mammal:1234"、“NPS YELLO6778 | MBG 33424”。	
+occurrence:22:Definition	Comments or notes about the Occurrence.	針對此筆出現記錄的描述或筆記。如 “found dead on road”	
+occurrence:2:Comments	For a specimen in the absence of a bona fide global unique identifier, for example, use the form: "urn:catalog:[institutionCode]:[collectionCode]:[catalogNumber].		
+occurrence:5:Comments	The recommended best practice is to separate the values with a vertical bar (' | '). The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.		
+occurrence:7:Comments	An organismQuantity must have a corresponding organismQuantityType, e.g.,  "27" for organismQuantity with "individuals" for organismQuantityType; "12.5" for organismQuantity with "%biomass" for organismQuantityType; "r" for organismQuantity with "BraunBlanquetScale" for organismQuantityType.		
+occurrence:8:Comments	An organismQuantityType must have a corresponding organismQuantity, e.g.,  "27" for organismQuantity with "individuals" for organismQuantityType; "12.5" for organismQuantity with "%biomass" for organismQuantityType; "r" for organismQuantity with "BraunBlanquetScale" for organismQuantityType.		
+occurrence:15:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
+occurrence:17:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
+occurrence:18:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
+occurrence:19:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
+occurrence:20:Comments	The recommended best practice is to separate the values with a vertical bar (' | '), and to separate the relationship from the taxon with a colon (':').		
+occurrence:21:Comments	The recommended best practice is to separate the values with a vertical bar (' | ').		
+occurrence:1:Examples	A wolf pack on the shore of Kluane Lake in 1988. A virus in a plant leaf in a the New York Botanical Garden at 15:29 on 2014-10-23. A fungus in Central Park in the summer of 1929. 		
+occurrence:2:Examples	"urn:lsid:nhm.ku.edu:Herps:32",  "urn:catalog:FMNH:Mammal:145732".		
+occurrence:3:Examples	"2008.1334",  "145732a",  "145732".		
+occurrence:4:Examples	OPP 7101		
+occurrence:5:Examples	"José E. Crespo",  "Oliver P. Pearson | Anita K. Pearson" where the value in recordNumber "OPP 7101" corresponds to the number for the specimen in the field catalog (collector number) of Oliver P. Pearson.		
+occurrence:6:Examples	"1",  "25".		
+occurrence:9:Examples	"female",  "hermaphrodite",  "8 males, 4 females".		
+occurrence:10:Examples	"egg",  "eft",  "juvenile",  "adult",  "2 adults 4 juveniles".		
+occurrence:11:Examples	"non-reproductive",  "pregnant",  "in bloom",  "fruit-bearing".		
+occurrence:12:Examples	"roosting",  "foraging",  "running".		
+occurrence:13:Examples	"native",  "introduced",  "naturalised",  "invasive",  "managed".		
+occurrence:14:Examples	"present",  "absent".		
+occurrence:15:Examples	"fossil",  "cast",  "photograph",  "DNA extract",  "skin | "skull | skeleton",  "whole animal (ETOH) | tissue (EDTA)".		
+occurrence:16:Examples	"in collection",  "missing",  "voucher elsewhere",  "duplicates elsewhere".		
+occurrence:17:Examples	"http://arctos.database.museum/SpecimenImages/UAMObs/Mamm/2/P7291179.JPG",  "http://204.140.246.24/Fish/Collection%20Pictures/10118-00.jpg | http://204.140.246.24/Fish/Collection%20Pictures/10118-00a.jpg".		
+occurrence:18:Examples	"http://www.sciencemag.org/cgi/content/abstract/322/5899/261",  "Christopher J. Conroy, Jennifer L. Neuwald. 2008. Phylogeographic study of the California vole, Microtus californicus Journal of Mammalogy, 89(3):755-767.",  "Steven R. Hoofer and Ronald A. Van Den Bussche. 2001. Phylogenetic Relationships of Plecotine Bats and Allies Based on Mitochondrial Ribosomal Sequences. Journal of Mammalogy 82(1):131-137. | Walker, Faith M., Jeffrey T. Foster, Kevin P. Drees, Carol L. Chambers. 2014. Spotted bat (Euderma maculatum) microsatellite discovery using illumina sequencing. Conservation Genetics Resources.".		
+occurrence:19:Examples	"http://www.ncbi.nlm.nih.gov/nuccore/U34853.1",  "http://www.ncbi.nlm.nih.gov/nuccore/GU328060 | http://www.ncbi.nlm.nih.gov/nuccore/AF326093".		
+occurrence:20:Examples	"host: Quercus alba",  "parasitoid of:Cyclocephala signaticollis | predator of Apis mellifera".		
+occurrence:21:Examples	"FMNH:Mammal:1234",  "NPS YELLO6778 | MBG 33424".		
+occurrence:22:Examples	 "found dead on road".		

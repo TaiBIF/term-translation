@@ -1,0 +1,5 @@
+identifier	dc Terms	Class	Term	中譯	Definition	定義	Comment	註解	Examples	範例	Link
+materialsample:1		MaterialSample	materialSampleID		An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique.	srtrtd					http://terms.tdwg.org/wiki/dwc:materialSampleID
+materialsample:2			LivingSpecimen		A specimen that is alive.						http://terms.tdwg.org/wiki/dwc:LivingSpecimen
+materialsample:3			PreservedSpecimen		A specimen that has been preserved.						http://terms.tdwg.org/wiki/dwc:PreservedSpecimen
+materialsample:4			FossilSpecimen		A preserved specimen that is a fossil.						http://terms.tdwg.org/wiki/dwc:FossilSpecimen

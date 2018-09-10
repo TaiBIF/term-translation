@@ -1,0 +1,63 @@
+event:1:Term	Event		An action that occurs at some location during some time.
+event:2:Term	HumanObservation		An output of a human observation process.
+event:3:Term	MachineObservation		An output of a machine observation process.
+event:4:Term	eventID		An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.
+event:5:Term	parentEventID		An identifier for the broader Event that groups this and potentially other Events.
+event:6:Term	fieldNumber	野外採集號	An identifier given to the event in the field. Often serves as a link between field notes and the Event.
+event:7:Term	eventDate	資料產生日期	The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+event:8:Term	eventTime	事件時間	The time or interval during which an Event occurred. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+event:9:Term	startDayOfYear		The earliest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).
+event:10:Term	endDayOfYear		The latest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).
+event:11:Term	year	年	The four-digit year in which the Event occurred, according to the Common Era Calendar.
+event:12:Term	month	月	The ordinal month in which the Event occurred.
+event:13:Term	day	日	The integer day of the month on which the Event occurred.
+event:14:Term	verbatimEventDate	字面事件日期(原始)	The verbatim original representation of the date and time information for an Event.
+event:15:Term	habitat	棲地類型描述	A category or description of the habitat in which the Event occurred.
+event:16:Term	samplingProtocol	採集方法	The name of, reference to, or description of the method or protocol used during an Event.
+event:17:Term	samplingEffort		The amount of effort expended during an Event.
+event:18:Term	sampleSizeValue		A numeric value for a measurement of the size (time duration, length, area, or volume) of a sample in a sampling event.
+event:19:Term	sampleSizeUnit		The unit of measurement of the size (time duration, length, area, or volume) of a sample in a sampling event.
+event:20:Term	fieldNotes		One of a) an indicator of the existence of, b) a reference to (publication, URI), or c) the text of notes taken in the field about the Event.
+event:21:Term	eventRemarks	事件備註	Comments or notes about the Event.
+event:1:Definition	An action that occurs at some location during some time.		
+event:2:Definition	An output of a human observation process.		
+event:3:Definition	An output of a machine observation process.		
+event:4:Definition	An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.		
+event:5:Definition	An identifier for the broader Event that groups this and potentially other Events.		
+event:6:Definition	An identifier given to the event in the field. Often serves as a link between field notes and the Event.		
+event:7:Definition	The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).		
+event:8:Definition	The time or interval during which an Event occurred. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).		
+event:9:Definition	The earliest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).		
+event:10:Definition	The latest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).		
+event:11:Definition	The four-digit year in which the Event occurred, according to the Common Era Calendar.		
+event:12:Definition	The ordinal month in which the Event occurred.		
+event:13:Definition	The integer day of the month on which the Event occurred.		
+event:14:Definition	The verbatim original representation of the date and time information for an Event.		
+event:15:Definition	A category or description of the habitat in which the Event occurred.		
+event:16:Definition	The name of, reference to, or description of the method or protocol used during an Event.		
+event:17:Definition	The amount of effort expended during an Event.		
+event:18:Definition	A numeric value for a measurement of the size (time duration, length, area, or volume) of a sample in a sampling event.		
+event:19:Definition	The unit of measurement of the size (time duration, length, area, or volume) of a sample in a sampling event.		
+event:20:Definition	One of a) an indicator of the existence of, b) a reference to (publication, URI), or c) the text of notes taken in the field about the Event.		
+event:21:Definition	Comments or notes about the Event.		
+event:5:Comments	May be a globally unique identifier or an identifier specific to the data set.		
+event:18:Comments	A sampleSizeValue must have a corresponding sampleSizeUnit.		
+event:19:Comments	A sampleSizeUnit must have a corresponding sampleSizeValue, e.g.,  "5" for sampleSizeValue with "metre" for sampleSizeUnit.		
+event:1:Examples	A specimen collection process. A machine observation. 		
+event:5:Examples	"A1" as parentEventID to identify the main Whittaker Plot in nested samples, each with its own eventID (e.g.,  "A1:1",  "A1:2").		
+event:6:Examples	"RV Sol 87-03-08".		
+event:7:Examples	"1963-03-08T14:07-0600" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC,  "2009-02-20T08:40Z" is 20 Feb 2009 8:40am UTC,  "1809-02-12" is 12 Feb 1809,  "1906-06" is Jun 1906,  "1971" is just that year,  "2007-03-01T13:00:00Z/2008-05-11T15:30:00Z" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC,  "2007-11-13/15" is the interval between 13 Nov 2007 and 15 Nov 2007.		
+event:8:Examples	"14:07-0600" is 2:07pm in the time zone six hours earlier than UTC,  "08:40:21Z" is 8:40:21am UTC,  "13:00:00Z/15:30:00Z" is the interval between 1pm UTC and 3:30pm UTC.		
+event:9:Examples	"1" (=1 Jan),  "366" (=31 Dec),  "365" (=30 Dec in a leap year, 31 Dec in a non-leap year).		
+event:10:Examples	"1" (=1 Jan),  "366" (=31 Dec),  "365" (=30 Dec in a leap year, 31 Dec in a non-leap year).		
+event:11:Examples	"2008"		
+event:12:Examples	"1" (=January),  "10" (=October).		
+event:13:Examples	"9",  "28".		
+event:14:Examples	"spring 1910",  "Marzo 2002",  "1999-03-XX",  "17IV1934".		
+event:15:Examples	"oak savanna",  "pre-cordilleran steppe".		
+event:16:Examples	"UV light trap",  "mist net",  "bottom trawl",  "ad hoc observation",  "point count",  "Penguins from space: faecal stains reveal the location of emperor penguin colonies, http://dx.doi.org/10.1111/j.1466-8238.2009.00467.x",  "Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp.",  "http://www.bsc-eoc.org/download/Owl.pdf".		
+event:17:Examples	"40 trap-nights",  "10 observer-hours; 10 km by foot; 30 km by car".		
+event:18:Examples	"5" for sampleSizeValue with "metre" for sampleSizeUnit.		
+event:19:Examples	"minute",  "hour",  "day",  "metre",  "square metre",  "cubic metre". Recommended best practice is to use a controlled vocabulary such as the Ontology of Units of Measure http://www.wurvoc.org/vocabularies/om-1.8/ of SI units, derived units, or other non-SI units accepted for use within the SI (e.g., minute, hour, day, litre).		
+event:20:Examples	"notes available in Grinnell-Miller Library."		
+event:21:Examples	"after the recent rains the river is nearly at flood stage".		

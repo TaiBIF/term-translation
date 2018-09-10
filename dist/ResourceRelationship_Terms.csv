@@ -1,0 +1,22 @@
+resourcerelationship:1:Term	ResourceRelationship		A relationship of one rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource) to another.
+resourcerelationship:2:Term	resourceRelationshipID		An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object).
+resourcerelationship:3:Term	resourceID		An identifier for the resource that is the subject of the relationship.
+resourcerelationship:4:Term	relatedResourceID		An identifier for a related resource (the object, rather than the subject of the relationship).
+resourcerelationship:5:Term	relationshipOfResource		The relationship of the resource identified by relatedResourceID to the subject (optionally identified by the resourceID). Recommended best practice is to use a controlled vocabulary.
+resourcerelationship:6:Term	relationshipAccordingTo		The source (person, organization, publication, reference) establishing the relationship between the two resources.
+resourcerelationship:7:Term	relationshipEstablishedDate		The date-time on which the relationship between the two resources was established. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+resourcerelationship:8:Term	relationshipRemarks		Comments or notes about the relationship between the two resources.
+resourcerelationship:1:Definition	A relationship of one rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource) to another.		
+resourcerelationship:2:Definition	An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object).		
+resourcerelationship:3:Definition	An identifier for the resource that is the subject of the relationship.		
+resourcerelationship:4:Definition	An identifier for a related resource (the object, rather than the subject of the relationship).		
+resourcerelationship:5:Definition	The relationship of the resource identified by relatedResourceID to the subject (optionally identified by the resourceID). Recommended best practice is to use a controlled vocabulary.		
+resourcerelationship:6:Definition	The source (person, organization, publication, reference) establishing the relationship between the two resources.		
+resourcerelationship:7:Definition	The date-time on which the relationship between the two resources was established. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).		
+resourcerelationship:8:Definition	Comments or notes about the relationship between the two resources.		
+resourcerelationship:1:Comments	Resources can be thought of as identifiable records or instances of classes and may include, but need not be limited to Occurrences, Organisms, MaterialSamples, Events, Locations, GeologicalContexts, Identifications, or Taxa.		
+resourcerelationship:1:Examples	An instance of an Organism is the mother of another instance of an Organism. 		
+resourcerelationship:5:Examples	"duplicate of",  "mother of",  "endoparasite of",  "host to",  "sibling of",  "valid synonym of",  "located within".		
+resourcerelationship:6:Examples	"Julie Woodruff".		
+resourcerelationship:7:Examples	"1963-03-08T14:07-0600" is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC,  "2009-02-20T08:40Z" is 20 Feb 2009 8:40am UTC,  "1809-02-12" is 12 Feb 1809,  "1906-06" is Jun 1906,  "1971" is just that year,  "2007-03-01T13:00:00Z/2008-05-11T15:30:00Z" is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC,  "2007-11-13/15" is the interval between 13 Nov 2007 and 15 Nov 2007.		
+resourcerelationship:8:Examples	"mother and offspring collected from the same nest",  "pollinator captured in the act".		
