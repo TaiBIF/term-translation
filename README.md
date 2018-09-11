@@ -1,5 +1,7 @@
-# 達爾文核心集(Darwin Core; DwC)/延伸集 正體中文詞條
+# 達爾文核心集/延伸集 正體中文翻譯計畫
+# Darwin Core terms/extension translation in Traditional Chinese
 
-DwC 正體中文(臺灣) 翻譯
+DwC 正體中文翻譯
 
-[CrowdIN 達爾文核心集翻譯](https://crowdin.com/project/darwin-core-vocabularies)
+[Crowdin 達爾文核心集翻譯計畫位置](https://crowdin.com/project/darwin-core-vocabularies)
+[翻譯操作說明](https://hackmd.io/s/SJfNV2Vum#)
